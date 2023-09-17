@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: white; /* White background for the entire page */
+    color: #333; /* Default text color */
+    width: 50%; /* Width set to 50% of the viewport for responsiveness */
+    margin: 0 auto; /* Center-align the content */
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+.social-buttons {
+    margin-top: 20px;
+}
+
+.social-button {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center-align text horizontally */
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-weight: bold;
+}
+
+.social-button img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.facebook {
+    background-color: #1877f2; /* Blue background for Facebook button */
+    color: white;
+}
+
+.facebook:hover {
+    background-color: #0d55be; 
+
+}
+
+.google {
+    background-color: white; /* White background for Google button */
+    color: #333; /* Default font color */
+    border: 1px solid #333; /* Add border */
+}
+
+.google:hover {
+    border: 1px solid pink; /* Pink border on hover */
+
+}
+
+.apple {
+    background-color: black; /* Black background for Apple button */
+    color: white;
+}
+
+/* Add a separator line after social buttons */
+.separator {
+    height: 2px;
+    background-color: pink; /* Pink separator line */
+    margin: 20px 0;
+}
+
+.login-button {
+    background-color: transparent;
+    border: 2px solid #ff1493; /* Pink border for login button */
+    color: #ff1493; /* Pink font color */
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.login-button:hover {
+    background-color: pink; /* Pink background on hover */
+    color: white; /* White font color on hover */
+}
+
+.signup-button {
+    background-color: pink; /* Pink background for signup button */
+    color: white; /* White font color */
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+/* Customize footer styles */
+.footer {
+    color: #ddd; /* Light text color for the footer */
+}
+
+/* Customize Terms and Conditions link */
+a {
+    text-decoration: none;
+    color: pink; /* Pink color for links */
+}
+
+a:hover {
+    text-decoration: underline;
+}
